@@ -1,0 +1,4 @@
+Somente dois usuarios
+Fazer model para capitulo
+Fazer database para os capitulos
+Form para upload de novo 'capitulo' com titulo, detalhes, data e fotos.

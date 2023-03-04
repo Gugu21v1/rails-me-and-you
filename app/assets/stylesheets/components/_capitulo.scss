@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Kotta+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap');
+
+body {
+  background-color: #8c979A;
+  color: #ff0000;
+}
+
+.home-title {
+  font-family: 'Tilt Prism', cursive;
+  font-size: 60px;
+}
+
+.my-card {
+  box-sizing: border-box;
+  position: relative;
+  width: 1057px;
+  height: 404px;
+  background: #373D3f;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  margin: auto auto;
+}
+
+.images {
+  position: absolute;
+  width: 461px;
+  height: 288px;
+  left: 37px;
+}
+
+.image-primary {
+  position: absolute;
+  width: 332px;
+  height: 288px;
+  left: 166px;
+  top: 58px;
+  background: #D9D9D9;
+  border-radius: 10px;
+}
+
+.image-secondary {
+  position: absolute;
+  width: 100px;
+  left: 37px;
+  top: 75px;
+  background: #D9D9D9;
+  border-radius: 10px;
+}
+
+.image-tertiary {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  left: 37px;
+  top: 229px;
+  background: #D9D9D9;
+  border-radius: 10px;
+}
+
+.chapter-body {
+  position: absolute;
+  width: 458px;
+  height: 331px;
+  left: 554px;
+  top: 37px;
+  word-break: break-all;
+  background: #D9D9D9;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.chapter-title {
+  font-family: 'Dancing Script', cursive;  font-style: normal;
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 96px;
+  color: #FFFFFF;
+}
+
+.chapter-details {
+  padding: 0 20px;
+  margin-top: -10px;
+  font-family: 'Kotta One', serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 32px;
+  color: #FFFFFF;
+  overflow: hidden;
+  max-height: 180px;
+}
+
+.chapter-date {
+  position: absolute;
+  width: 133px;
+  height: 24px;
+  left: 300px;
+  top: 290px;
+  font-family: 'Dancing Script', cursive;  font-style: normal;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #FFFFFF;
+}
